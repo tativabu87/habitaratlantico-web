@@ -1,22 +1,21 @@
-# HabitarAtlántico — Web V2
+# HabitarAtlántico — versión final pre-lanzamiento
 
-Segunda iteración de la web.
+Versión visual aprobada para el lanzamiento inicial.
 
-Dirección visual:
-- Galicia atlántica
-- azul atlántico
-- piedra cálida
-- roble
-- verde eucalipto/musgo
-- beige y blanco roto
-- estética editorial y arquitectónica
-- numeración 01/02/03/04
-- bloque humano “¿Quién cuidará tu casa?”
+Cambios finales:
+- diseño y estructura aprobados;
+- teléfono NO visible públicamente;
+- contacto mediante botón/enlace directo a WhatsApp;
+- retrato de Tatiana pequeño y discreto;
+- fondo del retrato suavizado/difuminado para ocultar el entorno laboral;
+- identificación del puesto de trabajo fuera del encuadre;
+- versión ES + EN.
 
-Pendiente:
-- sustituir los fondos provisionales por fotografías reales seleccionadas
-- sustituir la imagen/espacio de presentación por una fotografía real de Tatiana si decide utilizarla
-- añadir teléfono y WhatsApp profesional
-- revisar servicios y textos después de más validación
-- textos legales
-- dominio propio
+## Pendiente antes de lanzamiento público
+1. Comprar `habitaratlantico.es`.
+2. Crear `hola@habitaratlantico.es`.
+3. Añadir Aviso Legal, Privacidad y Cookies cuando corresponda.
+4. Subir esta versión a GitHub Pages.
+5. Comprobar móvil y enlaces antes de compartirla públicamente.
+
+El número de WhatsApp no aparece escrito en la web; el botón enlaza directamente al chat.
