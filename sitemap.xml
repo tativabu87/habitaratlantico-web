@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://habitaratlantico.es/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://habitaratlantico.es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://habitaratlantico.es/en/"/>
   </url>
+  <url><loc>https://habitaratlantico.es/home-watch-galicia.html</loc></url>
+  <url><loc>https://habitaratlantico.es/supervision-viviendas-galicia.html</loc></url>
+  <url><loc>https://habitaratlantico.es/custodia-llaves-galicia.html</loc></url>
+  <url><loc>https://habitaratlantico.es/mantenimiento-segunda-vivienda-galicia.html</loc></url>
+  <url><loc>https://habitaratlantico.es/en/</loc></url>
 </urlset>
