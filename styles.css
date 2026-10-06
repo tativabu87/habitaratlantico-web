@@ -96,9 +96,6 @@ footer{padding:22px 0;font-size:10px;color:#777;display:flex;justify-content:spa
 }
 
 
-
-}
-
 /* Founder portrait — discreet, small and editorial. */
 .founder-photo{
   width:210px;
@@ -228,4 +225,49 @@ footer{padding:22px 0;font-size:10px;color:#777;display:flex;justify-content:spa
 .visit-num{font:400 30px "Playfair Display",Georgia,serif;color:#aeb2b0;margin-bottom:10px;line-height:1}
 @media(max-width:560px){
   .visit-num{font-size:27px;margin-bottom:9px}
+}
+
+
+/* V7 — responsive layout fix: prevent horizontal overflow and protect the hero/header. */
+html, body{
+  width:100%;
+  max-width:100%;
+  overflow-x:hidden;
+}
+.header-inner,
+.hero-grid,
+.process-head,
+.services-head,
+.visit-head,
+.who-grid,
+.contact-grid{
+  min-width:0;
+}
+.brand,
+.nav,
+.hero-copy,
+.hero-photo-wrap,
+.hero-photo{
+  min-width:0;
+}
+.hero-grid{
+  grid-template-columns:minmax(0,42%) minmax(0,58%);
+}
+.hero-copy{
+  overflow-wrap:normal;
+}
+@media(max-width:1200px){
+  .nav{gap:20px}
+  .nav .contact{padding-left:17px;padding-right:17px}
+  .brand-name{font-size:23px}
+  .brand-sub{letter-spacing:.22em}
+}
+@media(max-width:1080px){
+  .nav{gap:15px}
+  .nav>a:not(.contact):not(.lang){display:none}
+  .hero h1{font-size:52px}
+}
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-copy{overflow:visible}
 }
