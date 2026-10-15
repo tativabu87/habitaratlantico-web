@@ -71,7 +71,13 @@ a{text-decoration:none;color:inherit}
 .contact h2{font:500 38px/1.05 "Playfair Display",Georgia,serif;margin:0}
 .contact p{font-size:13px;line-height:1.6;color:#dce5e4;max-width:480px}
 .contact .button{background:#fff;color:var(--ink)}
-footer{padding:22px 0;font-size:10px;color:#777;display:flex;justify-content:space-between}
+footer{padding:22px 0;font-size:10px;color:#777;display:flex;justify-content:space-between;align-items:center;gap:18px}
+.footer-right{display:flex;align-items:center;gap:20px}
+.footer-instagram{display:inline-flex;align-items:center;gap:7px;color:var(--blue);text-decoration:none;font-size:10px;letter-spacing:.04em;transition:opacity .2s ease}
+.footer-instagram:hover{opacity:.72}
+.footer-instagram svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.footer-instagram .instagram-dot{fill:currentColor;stroke:none}
+.footer-location{white-space:nowrap}
 
 
 /* Contact form */
@@ -92,7 +98,7 @@ footer{padding:22px 0;font-size:10px;color:#777;display:flex;justify-content:spa
  .process-grid{grid-template-columns:1fr}.step{padding-right:0}.step-photo{height:220px}
  .service-grid{grid-template-columns:1fr}.service{border-right:0}
  .who-grid{grid-template-columns:1fr}.photo-placeholder{width:150px;height:190px}.contact-form-wrap{padding:22px 18px}
- footer{display:block}.footer-right{display:block;margin-top:7px}
+ footer{display:flex;flex-wrap:wrap;align-items:flex-start;gap:12px}.footer-right{display:flex;flex-wrap:wrap;gap:12px;margin-top:0}.footer-location{display:block}
 }
 
 
