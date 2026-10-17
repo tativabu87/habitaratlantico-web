@@ -54,11 +54,11 @@ a{text-decoration:none;color:inherit}
 .services-head{display:flex;justify-content:space-between;align-items:end;gap:50px;margin-bottom:30px}
 .services-side{font-size:13px;line-height:1.55;color:var(--muted);max-width:310px;margin:0}
 .service-grid{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.service{padding:25px 18px 20px;text-align:center;border-right:1px solid var(--line)}
+.service{padding:25px 15px 22px;text-align:center;border-right:1px solid var(--line)}
 .service:last-child{border-right:0}
 .icon{font-size:27px;color:var(--blue);margin-bottom:11px;font-family:Arial}
-.service h3{font:500 15px "Playfair Display",Georgia,serif;margin:0 0 7px}
-.service p{font-size:10.5px;line-height:1.4;color:#777;margin:0}
+.service h3{font:500 15.5px "Playfair Display",Georgia,serif;line-height:1.2;margin:0 0 8px}
+.service p{font-size:11px;line-height:1.48;color:#777;margin:0}
 
 .who{padding:72px 0 78px;background:var(--beige);border-top:1px solid var(--line)}
 .who-grid{display:grid;grid-template-columns:210px 1fr;gap:52px;align-items:center}
