@@ -8,7 +8,7 @@ function load(){
  window.dataLayer=window.dataLayer||[];function gtag(){window.dataLayer.push(arguments);}window.gtag=gtag;
  gtag("js",new Date());gtag("config",ID,{anonymize_ip:true});
  var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id="+encodeURIComponent(ID);document.head.appendChild(s);
- if(/\/gracias\.html$/.test(location.pathname)){try{if(!sessionStorage.getItem("ha_lead_sent")){gtag("event","generate_lead");sessionStorage.setItem("ha_lead_sent","1");}}catch(e){}}
+ if(/\/(?:en\/)?gracias\.html$/.test(location.pathname)){try{if(!sessionStorage.getItem("ha_lead_sent")){gtag("event","generate_lead");sessionStorage.setItem("ha_lead_sent","1");}}catch(e){}}
 }
 function settings(){if(document.getElementById("ha-consent-settings"))return;var b=document.createElement("button");b.id="ha-consent-settings";b.type="button";b.textContent=en?"Cookie settings":"Configurar cookies";b.onclick=show;document.body.appendChild(b);}
 function choose(v){try{localStorage.setItem(KEY,v);}catch(e){}if(v==="accepted")load();var banner=document.getElementById("ha-consent-banner");if(banner)banner.remove();settings();}
