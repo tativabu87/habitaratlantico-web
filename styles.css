@@ -481,3 +481,14 @@ html, body{
  .seo-cta .button{white-space:normal}
  .seo-links{gap:12px 18px}
 }
+
+/* Consentimiento de analítica opcional */
+#ha-consent-banner{position:fixed;z-index:1000;left:24px;right:24px;bottom:24px;max-width:760px;margin:0 auto;padding:22px 24px;background:#fbfaf7;color:#183846;border:1px solid #ddd8cf;box-shadow:0 10px 35px rgba(24,56,70,.18);font:13px/1.55 Inter,Arial,sans-serif}
+#ha-consent-banner h2{font:500 22px/1.2 'Playfair Display',Georgia,serif;margin:0 0 8px}
+#ha-consent-banner p{margin:0 0 8px;color:#43575d}
+#ha-consent-banner>a{text-decoration:underline;font-size:12px}
+.ha-consent-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.ha-consent-actions button,#ha-consent-settings{font:500 12px Inter,Arial,sans-serif;padding:11px 15px;cursor:pointer;border:1px solid #355d6b}
+.ha-consent-primary{background:#355d6b;color:#fff}.ha-consent-secondary{background:transparent;color:#183846}
+#ha-consent-settings{position:fixed;z-index:999;left:12px;bottom:12px;background:#fbfaf7;color:#183846;border-color:#ddd8cf;font-size:10px;padding:7px 10px}
+@media(max-width:600px){#ha-consent-banner{left:12px;right:12px;bottom:12px;padding:18px}.ha-consent-actions{display:grid;grid-template-columns:1fr}.ha-consent-actions button{width:100%}}
