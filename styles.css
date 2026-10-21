@@ -399,3 +399,7 @@ html, body{
  .visit-result-v12 .report-point p{font-size:12px}
  .visit-result-v12 .report-image{max-width:330px;justify-self:center}
 }
+
+
+/* Enlaces de servicio: navegación interna accesible y discreta */
+.service-more{display:inline-block;margin-top:12px;font-size:10px;letter-spacing:.02em;color:var(--blue);text-decoration:underline;text-underline-offset:3px}.service-more:hover{opacity:.75}
