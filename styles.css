@@ -492,3 +492,22 @@ html, body{
 .ha-consent-primary{background:#355d6b;color:#fff}.ha-consent-secondary{background:transparent;color:#183846}
 #ha-consent-settings{position:fixed;z-index:999;left:12px;bottom:12px;background:#fbfaf7;color:#183846;border-color:#ddd8cf;font-size:10px;padding:7px 10px}
 @media(max-width:600px){#ha-consent-banner{left:12px;right:12px;bottom:12px;padding:18px}.ha-consent-actions{display:grid;grid-template-columns:1fr}.ha-consent-actions button{width:100%}}
+
+
+/* V16 — bloque de confianza editorial inspirado en la nueva propuesta visual */
+.trust-section{padding:64px 0 70px;background:var(--paper);border-top:1px solid var(--line)}
+.trust-heading{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:end;margin-bottom:42px}
+.trust-heading h2{font:500 clamp(38px,4.3vw,58px)/1.02 "Playfair Display",Georgia,serif;letter-spacing:-.035em;margin:0}
+.trust-heading h2 em{font-style:italic;color:var(--blue)}
+.trust-heading>p{font-size:15px;line-height:1.7;color:var(--muted);max-width:510px;margin:0 0 5px}
+.trust-grid{grid-template-columns:repeat(4,minmax(0,1fr));border:0;gap:0}
+.trust-grid .service{padding:8px 24px 16px;text-align:center;border-right:1px solid var(--line)}
+.trust-grid .service:first-child{padding-left:8px}
+.trust-grid .service:last-child{border-right:0;padding-right:8px}
+.trust-grid .icon{width:68px;height:68px;display:flex;align-items:center;justify-content:center;margin:0 auto 17px;border-radius:50%;background:rgba(194,181,159,.2);font-size:31px;color:var(--ink)}
+.trust-grid .service h3{font-size:18px;margin-bottom:10px}
+.trust-grid .service p{font-size:13px;line-height:1.6;max-width:240px;margin:0 auto;color:#5f6a6b}
+.trust-grid .service-more{font-size:11px;margin-top:13px}
+.trust-footer{display:flex;justify-content:flex-end;margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
+@media(max-width:900px){.trust-heading{gap:28px}.trust-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:28px}.trust-grid .service:nth-child(2){border-right:0}.trust-grid .service:nth-child(3){padding-left:8px}}
+@media(max-width:560px){.trust-section{padding:48px 0}.trust-heading{grid-template-columns:1fr;gap:15px;margin-bottom:28px}.trust-heading h2{font-size:39px}.trust-heading>p{font-size:13px}.trust-grid{grid-template-columns:1fr;row-gap:0}.trust-grid .service,.trust-grid .service:first-child,.trust-grid .service:last-child{padding:22px 8px;border-right:0;border-bottom:1px solid var(--line)}.trust-grid .service:last-child{border-bottom:0}.trust-grid .service p{max-width:300px}.trust-footer{justify-content:flex-start}}
