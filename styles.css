@@ -538,3 +538,19 @@ html, body{
   .trust-section > .container{width:calc(100% - 30px)}
   .trust-section .trust-grid{grid-template-columns:1fr}
 }
+
+
+/* Cinco pilares de garantía y servicio en la portada */
+.trust-section .trust-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+.trust-section .trust-grid .service{padding-left:18px;padding-right:18px}
+.trust-section .trust-grid .service:last-child{border-right:0}
+@media(max-width:900px){
+ .trust-section .trust-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:26px}
+ .trust-section .trust-grid .service:nth-child(2n){border-right:0}
+ .trust-section .trust-grid .service:nth-child(3){padding-left:18px}
+}
+@media(max-width:560px){
+ .trust-section .trust-grid{grid-template-columns:1fr}
+ .trust-section .trust-grid .service{border-right:0;border-bottom:1px solid var(--line)}
+ .trust-section .trust-grid .service:last-child{border-bottom:0}
+}
