@@ -554,3 +554,18 @@ html, body{
  .trust-section .trust-grid .service{border-right:0;border-bottom:1px solid var(--line)}
  .trust-section .trust-grid .service:last-child{border-bottom:0}
 }
+
+
+/* FIX FINAL: los cinco pilares deben permanecer en una sola fila en escritorio */
+@media(min-width:901px){
+  .trust-section .service-grid.trust-grid{
+    display:grid !important;
+    grid-template-columns:repeat(5,minmax(0,1fr)) !important;
+    width:100% !important;
+  }
+  .trust-section .service-grid.trust-grid > .service{
+    min-width:0;
+    border-right:1px solid var(--line);
+  }
+  .trust-section .service-grid.trust-grid > .service:last-child{border-right:0}
+}
