@@ -1,0 +1,1 @@
+const langBtn=document.getElementById('language');let lang='es';function setLang(next){lang=next;document.documentElement.lang=lang;langBtn.textContent=lang==='es'?'EN':'ES';document.querySelectorAll('[data-es][data-en]').forEach(el=>{el.innerHTML=el.dataset[lang]});}langBtn.addEventListener('click',()=>setLang(lang==='es'?'en':'es'));
