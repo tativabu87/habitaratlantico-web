@@ -745,3 +745,14 @@ footer{padding-top:24px;padding-bottom:24px}
  .report-point{gap:12px}
  .report-point-icon{width:36px;height:36px;flex-basis:36px}
 }
+
+.plan-price{display:flex;align-items:baseline;gap:6px;margin:18px 0 10px;color:var(--ink)}
+.plan-price strong{font-family:"Playfair Display",Georgia,serif;font-size:clamp(38px,4vw,54px);font-weight:400;letter-spacing:-.04em;line-height:1}
+.plan-price span{font-size:12px;color:var(--muted)}
+.plan-card.featured .plan-price{color:#fff}
+.plan-card.featured .plan-price span{color:#d3dedb}
+.plan-card.featured .plan-number{color:#d3dedb}
+.plan-card.featured h3{color:#fff}
+.plan-card.featured li{color:#f1f4f2}
+.plan-card.featured .plan-label{color:#e3ece8}
+.plan-card.featured .plan-price strong{color:#fff}
