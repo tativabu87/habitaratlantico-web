@@ -572,3 +572,31 @@ html, body{
 
 /* Focused improvements draft */
 .plans-section{padding:76px 0;background:var(--paper);border-top:1px solid var(--line)}.plans-heading{display:flex;justify-content:space-between;align-items:end;gap:42px;margin-bottom:32px}.plans-heading h2,.extras-inner h2{font:500 43px/1.04 "Playfair Display",Georgia,serif;letter-spacing:-.035em;margin:0}.plans-heading h2 em,.extras-inner h2 em{font-style:italic;color:var(--blue)}.plans-heading>p{max-width:420px;font-size:13px;line-height:1.6;color:var(--muted);margin:0}.plans-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.plan-card{padding:28px;border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;min-height:360px}.plan-card.featured{border-color:var(--blue);background:#f2f5f3}.plan-label{font-size:9px;letter-spacing:.24em;color:var(--blue)}.plan-card h3{font:500 23px "Playfair Display",Georgia,serif;margin:14px 0 10px}.plan-card>p{font-size:12px;line-height:1.55;color:var(--muted);min-height:54px;margin:0 0 16px}.plan-card ul{list-style:none;padding:0;margin:0 0 24px;display:grid;gap:9px}.plan-card li{font-size:11px;line-height:1.45;padding-left:18px;position:relative;color:#485a5e}.plan-card li:before{content:"✓";position:absolute;left:0;color:var(--blue)}.plan-card>a{margin-top:auto;font-size:11px;color:var(--blue);border-top:1px solid var(--line);padding-top:15px}.plans-note{font-size:10px;line-height:1.55;color:var(--muted);margin:18px 0 0}.extras-section{padding:52px 0;background:#fff;border-top:1px solid var(--line)}.extras-inner{display:grid;grid-template-columns:35% 1fr auto;gap:35px;align-items:center}.extras-inner h2{font-size:34px}.extras-list{display:grid;grid-template-columns:1fr 1fr;gap:16px 24px}.extras-list>div{border-left:1px solid var(--line);padding-left:14px}.extras-list strong{display:block;font:500 15px "Playfair Display",Georgia,serif;margin-bottom:5px}.extras-list span{display:block;color:var(--muted);font-size:10.5px;line-height:1.5}.text-link{white-space:nowrap;color:var(--blue);font-size:11px}.mobile-contact-bar{display:none}@media(max-width:900px){.plans-heading{display:block}.plans-heading>p{margin-top:18px}.plans-grid{grid-template-columns:1fr}.plan-card{min-height:0}.extras-inner{grid-template-columns:1fr;gap:24px}.extras-list{grid-template-columns:1fr 1fr}.text-link{white-space:normal}}@media(max-width:640px){.plans-section{padding:48px 0}.plans-heading h2{font-size:34px}.plan-card{padding:22px}.extras-section{padding:38px 0}.extras-inner h2{font-size:30px}.extras-list{grid-template-columns:1fr;gap:14px}.mobile-contact-bar{display:grid;grid-template-columns:repeat(3,1fr);position:fixed;bottom:0;left:0;right:0;z-index:50;background:var(--blue);padding:10px 12px calc(10px + env(safe-area-inset-bottom));gap:8px}.mobile-contact-bar a{color:#fff;text-align:center;font-size:11px;padding:10px 4px;border:1px solid rgba(255,255,255,.35)}body{padding-bottom:65px}.whatsapp-float{display:none}}
+
+
+/* Final visual polish — draft */
+.hero-photo{position:relative;overflow:hidden}
+.hero-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,35,42,.04) 55%,rgba(12,35,42,.35))}
+.hero-location{position:absolute;z-index:1;right:24px;bottom:22px;color:white;font-size:9px;letter-spacing:.24em;text-shadow:0 1px 8px rgba(0,0,0,.35)}
+.plans-intro-note{font-size:9px;letter-spacing:.2em;color:var(--blue);margin-bottom:20px}
+.plans-section{padding:68px 0 72px}
+.plans-heading{margin-bottom:36px}
+.plan-card{position:relative;padding:32px 30px 26px;min-height:390px;transition:transform .2s ease,box-shadow .2s ease}
+.plan-card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(24,56,70,.07)}
+.plan-card.featured{position:relative;background:#edf2f0;border-width:1px}
+.plan-card.featured:before{content:"RECOMENDADO";position:absolute;top:-1px;right:-1px;background:var(--blue);color:white;font-size:8px;letter-spacing:.16em;padding:9px 12px}
+.plan-label{display:flex;align-items:center;gap:10px}
+.plan-number{font:400 24px/1 "Playfair Display",Georgia,serif;color:#9aa9a7;letter-spacing:0}
+.plan-card h3{font-size:25px;margin:18px 0 12px}
+.plan-card>p{min-height:62px;font-size:13px}
+.plan-card li{font-size:12px}
+.plan-card>a{font-size:12px;padding-top:17px}
+.extras-inner{grid-template-columns:32% 1fr;gap:42px}
+.extras-list{grid-template-columns:repeat(3,1fr);gap:22px}
+.text-link{grid-column:2;justify-self:start}
+.visit-result-v12{background:#f5f2eb}
+.visit-result-v12 .report-image{background:white;padding:10px;box-shadow:0 16px 42px rgba(35,48,43,.08)}
+.visit-result-v12 .report-image span{display:block;text-align:right;color:var(--blue);padding:5px 2px 0}
+.mobile-contact-bar a:first-child{background:rgba(255,255,255,.08)}
+@media(max-width:900px){.plan-card{min-height:0}.extras-inner{grid-template-columns:1fr}.extras-list{grid-template-columns:repeat(2,1fr)}.text-link{grid-column:1}}
+@media(max-width:640px){.hero-location{right:15px;bottom:15px;font-size:8px}.plans-intro-note{line-height:1.5}.plan-card{padding:24px 20px}.plan-card.featured:before{font-size:7px;padding:7px 9px}.extras-list{grid-template-columns:1fr}.visit-result-v12{background:var(--paper)}}
